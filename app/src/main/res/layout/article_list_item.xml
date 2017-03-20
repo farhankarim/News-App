@@ -2,15 +2,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="5dp">
 
 
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:textAlignment="center"
         android:textColor="@android:color/black"
-        android:textSize="16sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         tools:text="Test Title" />
 
@@ -18,8 +21,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="5dp">
+        android:orientation="horizontal">
 
         <TextView
             android:id="@+id/tvAuthor"
